@@ -1,0 +1,43 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 33px;
+  background-color: #263640;
+  &__navigation {
+    display: flex;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    color: var(--dark-them-text-color);
+    margin-right: 182px;
+  }
+  &__menu-list {
+    display: flex;
+    gap: 48px;
+  }
+  &__menu-link {
+    display: flex;
+    color: var(--dark-them-text-color);
+  }
+  &__contact {
+    display: flex;
+    gap: 50px;
+  }
+  &__follow {
+    display: flex;
+    gap: 10px;
+  }
+  &__phone {
+    padding: 8px;
+    background-color: white;
+    text-align: center;
+    // button phone
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
