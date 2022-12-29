@@ -30,6 +30,15 @@
     display: flex;
     gap: 10px;
   }
+  &__social {
+    display: flex;
+    text-align: center;
+    gap: 8px;
+  }
+  &__social-icon {
+    width: 32px;
+    height: 32px;
+  }
   &__phone {
     padding: 8px;
     background-color: white;
@@ -39,5 +48,9 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+  }
+  &__phone-icon {
+    width: 16px;
+    height: 16px;
   }
 }

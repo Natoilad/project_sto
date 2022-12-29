@@ -1,5 +1,138 @@
-<section class="" id="">
-  <div class="container">
-    <h2>Test</h2>
+<section class="contact" id="#contact">
+  <div class="contact__container container">
+    <h2 class="visually-hidden">Test</h2>
+    <ul class="contact__box">
+      <li>
+        <h3 class="contact__title">Контакти</h3>
+        <p class="contact__p">
+          Ми цінуємо кожного клієнта і пишаємось що 60% клієнтів повертаються до
+          нас знову.
+        </p>
+        <address class="footer-address">
+          <ul class="list">
+            <li class="address__item">
+              <a class="address address-link link" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+            <li class="address__item">
+              <a
+                class="address address-link link"
+                href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="address__item">
+              <h3>Наша адреса</h3>
+              <p>пр. Перемоги 21б, Київ</p>
+            </li>
+            <li class="address__item link">
+              <a
+                class="address address-nav-link link"
+                href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%B3%D0%B8,+21,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4490904,30.4718042,17z/data=!4m6!3m5!1s0x40d4ce84500ddcb9:0xf2d7110382e599c2!8m2!3d50.4490904!4d30.4718042!16s%2Fg%2F1tf7l219"
+                target="_blank"
+                ><img
+                  class="contact__images-map"
+                  src="./images/map-sto.jpg"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </address>
+      </li>
+      <li>
+        <h3 class="contact__title">Записатись на діагностику</h3>
+        <p class="contact__p">
+          Ми завжди раді вашому візиту в Тюнінг Ательє, але краще заздалегідь
+          зарезервувати час
+        </p>
+        <form class="modal">
+          <!-- <button type="button" class="modal__btn-close" data-modal-close>
+            <svg class="modal__close-icon" width="18px" height="18px">
+              <use href="./images/sprite.svg#modal-close-btn"></use>
+            </svg>
+          </button>
+          <p class="modal__cta-title">Залиште свої дані, ми вам передзвонимо</p> -->
+
+          <label class="modal__label-title" for="user-phone"
+            ><span class="modal__label-name">Телефон</span></label
+          >
+          <div class="modal__input-position">
+            <input
+              required
+              class="modal__input-phone"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              pattern="[0-9]{10}"
+              title="xxxxxxxxxx"
+            />
+            <!-- <svg class="modal__icon-input">
+              <use href="./images/sprite.svg#icon-phone-form"></use>
+            </svg> -->
+          </div>
+          <label class="modal__label-title" for="user-name"
+            ><span class="modal__label-name">Ім'я</span></label
+          >
+          <div class="modal__input-position">
+            <input
+              required
+              class="modal__input-name"
+              type="text"
+              name="user-name"
+              id="user-name"
+            />
+            <!-- <svg class="modal__icon-input">
+              <use href="./images/sprite.svg#icon-person"></use>
+            </svg> -->
+          </div>
+
+          <label class="modal__label-title" for="user-email"
+            ><span class="modal__label-name">Пошта</span></label
+          >
+          <div class="modal__input-position">
+            <input
+              required
+              class="modal__input-mail"
+              type="email"
+              name="user-email"
+              id="user-email"
+            />
+            <!-- <svg class="modal__icon-input">
+              <use href="./images/sprite.svg#icon-email-form"></use>
+            </svg> -->
+          </div>
+          <label class="modal__label-title" for="user-comment"
+            ><span class="modal__label-name">Коментар</span></label
+          >
+          <textarea
+            class="modal__input-coment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Введіть текст"
+          ></textarea>
+          <div class="centre">
+            <!-- <div class="agree">
+              <label class="polity" for="agree">
+                <input
+                  class="checkbox visually-hidden"
+                  required
+                  type="checkbox"
+                  name="topic"
+                  value="agree"
+                  id="agree"
+                  title="Дайте згоду"
+                />
+                <span class="checkbox__icon"> </span>
+                Погоджуюся з розсилкою та приймаю
+                <a class="checkbox__link" href="#">&nbsp;Умови договору</a>
+              </label>
+            </div> -->
+
+            <button class="modal__btn-send" type="submit">Відправити</button>
+          </div>
+        </form>
+      </li>
+    </ul>
   </div>
 </section>
