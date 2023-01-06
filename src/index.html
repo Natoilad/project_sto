@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STO</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>STO</title>
-  <link rel="stylesheet" href="./sass/index.scss" />
-</head>
+    <!--Slick-->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
 
-<body>
-  <include src="./partials/header.html"></include>
-  <include src="./partials/hero.html"></include>
-  <include src="./partials/about.html"></include>
-  <include src="./partials/team.html"></include>
-  <include src="./partials/repair.html"></include>
-  <include src="./partials/portfolio.html"></include>
-  <include src="./partials/contact.html"></include>
-  <include src="./partials/footer.html"></include>
+  <body>
+    <include src="./partials/header.html"></include>
+    <include src="./partials/hero.html"></include>
+    <include src="./partials/about.html"></include>
+    <include src="./partials/team.html"></include>
+    <include src="./partials/repair.html"></include>
+    <include src="./partials/portfolio.html"></include>
+    <include src="./partials/contact.html"></include>
+    <include src="./partials/footer.html"></include>
 
-  <!-- js -->
-  <script type="module" src="./index.js"></script>
-</body>
+    <!--Slick jquery-->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
 
+    <!--Slick-->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- js -->
+    <script type="module" src="./js/slick.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>
