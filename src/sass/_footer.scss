@@ -58,9 +58,13 @@
     }
   }
   &__phone {
+    outline: 1px solid var(--accent-color);
+    display: flex;
+    gap: 8px;
+    align-items: center;
     color: var(--dark-them-text-color);
     border-radius: 16px;
-    padding: 8px;
+    padding: 8 16;
     background-color: #f86808;
     text-align: center;
     // button phone
@@ -70,11 +74,18 @@
     line-height: 1.5;
     &:hover,
     &:focus {
+      box-sizing: border-box;
+      outline: 1px solid var(--accent-color);
+      box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
       background-color: #fff;
-      color: var(--white-them-text-color);
+      color: var(--accent-color);
+      .footer__phone-icon {
+        fill: #f86808;
+      }
     }
   }
   &__phone-icon {
+    fill: var(--dark-them-text-color);
     width: 16px;
     height: 16px;
   }
