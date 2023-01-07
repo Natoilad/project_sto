@@ -23,9 +23,9 @@
     opacity: 0.5;
     margin-bottom: 48px;
   }
-  &__list {
-    margin-bottom: 138px;
-  }
+  // &__list {
+  //   // margin-bottom: 138px;
+  // }
   &__images-map {
     border-radius: 16px;
   }
@@ -35,4 +35,13 @@
 }
 .address__item {
   margin-bottom: 16px;
+}
+.address__map {
+  border-radius: 16px;
+}
+.address__text {
+  margin-bottom: 50px;
+}
+.address__subtitle {
+  margin-bottom: 20px;
 }
