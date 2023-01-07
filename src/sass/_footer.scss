@@ -13,14 +13,26 @@
   &__logo {
     color: var(--dark-them-text-color);
     margin-right: 182px;
+    display: flex;
+    align-items: center;
+    &:hover,
+    &:focus {
+      color: #f86808;
+    }
   }
   &__menu-list {
     display: flex;
     gap: 48px;
+    align-items: center;
   }
   &__menu-link {
+    padding: 10px;
     display: flex;
     color: var(--dark-them-text-color);
+    &:hover,
+    &:focus {
+      color: #f86808;
+    }
   }
   &__contact {
     display: flex;
