@@ -21,6 +21,10 @@
     line-height: 1.33;
     color: #263640;
     opacity: 0.5;
+    margin-bottom: 48px;
+  }
+  &__list {
+    margin-bottom: 138px;
   }
   &__images-map {
     border-radius: 16px;
@@ -28,4 +32,7 @@
 }
 .modal__input-coment {
   width: 100%;
+}
+.address__item {
+  margin-bottom: 16px;
 }

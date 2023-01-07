@@ -1,13 +1,20 @@
 .repair {
-  background-color: red;
+  background: linear-gradient(rgb(255, 255, 255) 30%, rgb(230, 240, 244) 80%);
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
+  &__title {
+    margin-bottom: 25px;
+  }
+  &__text {
+    margin-bottom: 48px;
+  }
   &__video {
     margin-left: auto;
     margin-right: auto;
     display: block;
     border-radius: 16px;
+    margin-bottom: 48px;
   }
   &__about {
     display: flex;

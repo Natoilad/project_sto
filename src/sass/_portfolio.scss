@@ -1,6 +1,42 @@
 .portfolio {
-  background-color: teal;
+  // background-color: teal;
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
+  &__title {
+    margin-bottom: 24px;
+  }
+  &__text {
+    margin-bottom: 48px;
+  }
+  &__gallery-1 {
+    display: flex;
+    gap: 20px;
+  }
+  &__gallery-2 {
+    height: 630px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+  &__img_reletive {
+    position: relative;
+    top: -51%;
+    margin-bottom: 20px;
+  }
+  &__img_reletive-2 {
+    // height: 500px;
+    position: relative;
+    top: -51%;
+  }
+  &__gallery-part {
+    margin-bottom: 20px;
+  }
+  &__part {
+    margin-bottom: 30px;
+  }
+  &__img-conteiner {
+    border-radius: 16px;
+    max-width: 100%;
+  }
 }

@@ -1,0 +1,25 @@
+.whyus {
+  background-color: rgb(230, 240, 244);
+  text-align: center;
+  //   background-color: teal;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  &__title {
+    margin-bottom: 25px;
+  }
+  &__text {
+    margin-bottom: 48px;
+  }
+  &__about {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 48px;
+    &-item {
+      background-color: var(--dark-them-text-color);
+      padding: 32 48;
+      &-title {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
