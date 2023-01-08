@@ -248,20 +248,15 @@
 //   letter-spacing: 0.02em;
 // }
 
-// .ellipse {
-//   @media screen and (min-width: 1200px) {
-//     margin-top: -220px;
-//     margin-bottom: 450px;
-//     margin-left: 735px;
-//     fill: #e6f0f4;
-//     opacity: 50%;
-//     background-image: linear-gradient(
-//         rgba(47, 48, 58, 0.4),
-//         rgba(47, 48, 58, 0.4)
-//       ),
-//       url('../images/ellipse.jpg');
-//   }
-// }
+.ellipse {
+  @media screen and (min-width: 1200px) {
+    margin-top: -220px;
+    margin-bottom: 450px;
+    margin-left: 735px;
+    fill: #e6f0f4;
+    opacity: 50%;
+  }
+}
 
 .consultation__container {
   background-color: #c4c4c4;
