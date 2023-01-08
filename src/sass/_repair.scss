@@ -1,8 +1,13 @@
 .repair {
   background: linear-gradient(rgb(255, 255, 255) 40%, rgb(230, 240, 244) 90%);
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   &__title {
     margin-bottom: 25px;
   }
@@ -15,6 +20,10 @@
     display: block;
     border-radius: 16px;
     margin-bottom: 48px;
+    @media screen and(min-width:1200px) {
+      width: 930px;
+      height: 450px;
+    }
   }
   &__about {
     display: flex;

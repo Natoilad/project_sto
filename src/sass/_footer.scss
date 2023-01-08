@@ -3,7 +3,11 @@
   padding-bottom: 33px;
   background-color: #263640;
   &__navigation {
-    display: flex;
+    display: none;
+    @media screen and(min-width:1200px) {
+      display: flex;
+    }
+    // display: flex;
   }
   &__container {
     display: flex;

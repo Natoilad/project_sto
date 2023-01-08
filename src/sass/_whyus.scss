@@ -16,18 +16,25 @@
     height: 32px;
   }
   &__about {
-    text-align: start;
-    display: flex;
-    gap: 24px;
-    margin-bottom: 48px;
     &-item {
       background-color: var(--dark-them-text-color);
       padding: 32 48;
+      margin-bottom: 20px;
+      @media screen and (min-width: 1200px) {
+        margin: 0;
+      }
       &-title {
         margin-bottom: 25px;
       }
     }
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+      display: flex;
+      gap: 24px;
+      margin-bottom: 48px;
+    }
   }
+
   &__btn-more {
     // display: flex;
     gap: 8px;
