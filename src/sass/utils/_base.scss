@@ -12,7 +12,9 @@ p {
   padding: 0;
   list-style: none;
 }
-
+body {
+  margin: 0;
+}
 img {
   display: block;
   max-width: 100%;
@@ -21,6 +23,10 @@ img {
 
 a {
   text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--white-them-text-color);
 }
 
 address {
@@ -33,7 +39,6 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.4;
-  color: var(--main-black-color);
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
@@ -49,13 +54,15 @@ textarea::placeholder {
 
   @media screen and (min-width: 480px) {
     width: 480px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+  // @media screen and (min-width: 768px) {
+  //   width: 768px;
+  //   padding-left: 32px;
+  //   padding-right: 32px;
+  // }
 
   @media screen and (min-width: 1200px) {
     width: 1200px;

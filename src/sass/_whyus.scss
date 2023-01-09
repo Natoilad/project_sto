@@ -2,7 +2,7 @@
   background-color: rgb(230, 240, 244);
   text-align: center;
   //   background-color: teal;
-  padding-top: 80px;
+  // padding-top: 80px;
   padding-bottom: 80px;
   &__title {
     margin-bottom: 25px;
@@ -10,15 +10,54 @@
   &__text {
     margin-bottom: 48px;
   }
+  &__icon {
+    margin-bottom: 24px;
+    width: 32px;
+    height: 32px;
+  }
   &__about {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 48px;
     &-item {
       background-color: var(--dark-them-text-color);
       padding: 32 48;
+      margin-bottom: 20px;
+      @media screen and (min-width: 1200px) {
+        margin: 0;
+      }
       &-title {
         margin-bottom: 25px;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+      display: flex;
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+  }
+
+  &__btn-more {
+    // display: flex;
+    gap: 8px;
+    align-items: center;
+    color: var(--dark-them-text-color);
+    border-radius: 16px;
+    padding: 8 16;
+    background-color: #f86808;
+    text-align: center;
+    // button phone
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    &:hover,
+    &:focus {
+      box-sizing: border-box;
+      outline: 1px solid var(--accent-color);
+      box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+      background-color: #fff;
+      color: var(--accent-color);
+      .footer__phone-icon {
+        fill: #f86808;
       }
     }
   }
