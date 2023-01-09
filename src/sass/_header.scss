@@ -1,78 +1,86 @@
 .header {
   padding-top: 37px;
   padding-bottom: 33px;
-  background: #f333;
+  background-color: lightpink;
+}
 
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header-navigation {
-    display: flex;
-  }
-  .header-logo {
-    color: var(--dark-them-text-color);
-    margin-right: 182px;
-    display: flex;
-    align-items: center;
-    &:hover,
-    &:focus {
-      color: #f86808;
-    }
-  }
-  .site-nav {
-    display: flex;
-    gap: 48px;
-  }
-  .site-nav__item {
-    align-items: center;
-    display: block;
-    color: var(--dark-them-text-color);
-    &:hover,
-    &:focus {
-      color: #f86808;
-    }
-  }
-  .header-contact {
-    display: flex;
-    gap: 50px;
-  }
-  .header-social {
-    display: flex;
-    text-align: center;
-    gap: 8px;
-  }
-  .header-social__icon {
-    fill: #fff;
-    width: 32px;
-    height: 32px;
-    &:hover,
-    &:focus {
-      transform: scale(1.5);
-      fill: #f86808;
-    }
-  }
-  .header-phone {
-    color: var(--dark-them-text-color);
-    border-radius: 16px;
-    padding: 8px;
-    background-color: #f86808;
-    text-align: center;
-    // button phone
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    &:hover,
-    &:focus {
-      background-color: #fff;
-      color: var(--white-them-text-color);
-    }
-  }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .header-phone__icon {
-    width: 16px;
-    height: 16px;
+.header-navigation {
+  display: flex;
+}
+
+.header-logo {
+  color: var(--dark-them-text-color);
+  margin-right: 182px;
+  display: flex;
+  align-items: center;
+  &:hover,
+  &:focus {
+    color: #f86808;
   }
+}
+
+.site-nav {
+  display: flex;
+  gap: 48px;
+}
+
+.site-nav__item {
+  align-items: center;
+  display: block;
+  color: var(--dark-them-text-color);
+  &:hover,
+  &:focus {
+    color: #f86808;
+  }
+}
+
+.header-contact {
+  display: flex;
+  gap: 50px;
+}
+
+.header-social {
+  display: flex;
+  text-align: center;
+  gap: 8px;
+}
+
+.header-social__icon {
+  fill: #fff;
+  width: 32px;
+  height: 32px;
+  &:hover,
+  &:focus {
+    transform: scale(1.5);
+    fill: #f86808;
+  }
+}
+
+.header-phone {
+  color: var(--dark-them-text-color);
+  border-radius: 16px;
+  padding: 8px;
+  background-color: #f86808;
+  text-align: center;
+  // button phone
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  &:hover,
+  &:focus {
+    background-color: #fff;
+    color: var(--white-them-text-color);
+  }
+}
+
+.header-phone__icon {
+  width: 16px;
+  height: 16px;
 }

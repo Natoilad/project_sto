@@ -215,55 +215,19 @@
   margin-left: 925px;
 }
 
-// .project-num1 {
-//   margin-top: 160px;
-//   margin-left: 280px;
-//   font-family: Manrope;
-//   color: var(--white-them-text-color);
-//   opacity: 5%;
-//   font-weight: 800;
-//   font-size: 204px;
-//   line-height: 1;
-// }
-
-// .project-num2 {
-//   margin-bottom: 125px;
-//   margin-left: 100px;
-//   font-family: Manrope;
-//   color: var(--white-them-text-color);
-//   opacity: 5%;
-//   font-weight: 800;
-//   font-size: 204px;
-//   line-height: 1;
-// }
-
-// .project-num3 {
-//   margin-left: 970px;
-//   font-family: Manrope;
-//   color: var(--white-them-text-color);
-//   opacity: 5%;
-//   font-weight: 800;
-//   font-size: 204px;
-//   line-height: 1;
-//   letter-spacing: 0.02em;
-// }
-
 .ellipse {
   @media screen and (min-width: 1200px) {
     margin-top: -220px;
     margin-bottom: 450px;
     margin-left: 735px;
     fill: #e6f0f4;
-    opacity: 50%;
+    opacity: 40%;
   }
 }
 
 .consultation__container {
-  background-color: #c4c4c4;
-  background-image: linear-gradient(
-      rgba(38, 54, 64, 0.64),
-      rgba(38, 54, 64, 0.64)
-    ),
+  background-color: #c4c4c4b8;
+  background-image: linear-gradient(rgba(38, 54, 64, 0), rgba(38, 54, 64, 0)),
     url('../images/about.jpg');
   background-size: cover;
   background-position: center;
@@ -279,10 +243,7 @@
     margin-bottom: 72px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: linear-gradient(
-        rgba(38, 54, 64, 0.64),
-        rgba(38, 54, 64, 0.64)
-      ),
+    background-image: linear-gradient(rgba(38, 54, 64, 0), rgba(38, 54, 64, 0)),
       url('../images/about.jpg');
   }
 }
