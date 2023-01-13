@@ -22,8 +22,16 @@
   border-radius: 50%;
 }
 
+.slick {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+}
+
 .slick-logo {
-  padding-left: 450px;
+  // display: flex;
+
+  padding-left: 150px;
   margin-top: 20px;
 }
 
@@ -31,7 +39,6 @@
   width: 300px;
   text-align: start;
   font-family: Manrope;
-  //   align-items: inherit;
   color: var(--white-them-text-color);
   font-weight: 400;
   font-size: 20px;
