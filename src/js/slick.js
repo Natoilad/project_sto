@@ -2,7 +2,7 @@ $('.one-time').slick({
   dots: false,
   arrows: true,
   infinite: true,
-<<<<<<< Updated upstream
+
   speed: 1000,
   slidesToShow: 3,
   autoplay: true,
@@ -10,11 +10,3 @@ $('.one-time').slick({
   variableWidth: true,
   autoplaySpeed: 500,
 });
-
-=======
-  speed: 300,
-  slidesToShow: 1,
-    adaptiveHeight: true, 
-    autoplay: true,
-});
->>>>>>> Stashed changes
