@@ -11,7 +11,10 @@
   }
   &__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    @media screen and(min-width:1200px) {
+      justify-content: space-between;
+    }
   }
 
   &__logo {
@@ -39,14 +42,18 @@
     }
   }
   &__contact {
-    display: flex;
-    gap: 50px;
+    display: block;
+    @media screen and(min-width:1200px) {
+      display: flex;
+      gap: 50px;
+    }
   }
   &__follow {
     display: flex;
     gap: 10px;
   }
   &__social {
+    margin-bottom: 10px;
     display: flex;
     text-align: center;
     gap: 8px;
