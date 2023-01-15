@@ -4,6 +4,7 @@
 //   infinite: true,
 //   speed: 300,
 //   slidesToShow: 1,
+
 //     adaptiveHeight: true,
 //     autoplay: true,
 // });
@@ -18,3 +19,4 @@ $('.variable-width').slick({
   variableWidth: true,
   autoplaySpeed: 500,
 });
+
