@@ -12,9 +12,12 @@
 // });
 
 $('.multiple-items').slick({
+  dots: false,
   infinite: true,
   slidesToShow: 5,
-  slidesToScroll: 3,
+  speed: 2000,
+  variableWidth: true,
+  slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 500,
 });

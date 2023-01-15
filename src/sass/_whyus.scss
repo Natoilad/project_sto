@@ -17,6 +17,8 @@
   }
   &__about {
     &-item {
+      box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 14%) 0px 1px 1px,
+        rgb(0 0 0 / 20%) 0px 2px 1px;
       background-color: var(--dark-them-text-color);
       padding: 32 48;
       margin-bottom: 20px;
