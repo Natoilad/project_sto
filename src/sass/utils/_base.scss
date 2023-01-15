@@ -18,7 +18,7 @@ body {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  // height: auto;
 }
 
 a {
@@ -46,16 +46,14 @@ textarea::placeholder {
 }
 
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   margin-left: auto;
   margin-right: auto;
 
   @media screen and (min-width: 480px) {
     width: 480px;
-    padding-left: 8px;
-    padding-right: 8px;
   }
 
   // @media screen and (min-width: 768px) {
@@ -67,7 +65,7 @@ textarea::placeholder {
   @media screen and (min-width: 1200px) {
     width: 1200px;
     padding-left: 120px;
-    padding-right: 120px;
+    padding-right: 1200px;
   }
 }
 
