@@ -1,4 +1,31 @@
+<<<<<<< Updated upstream
 
+=======
+.slick-slider {
+  @media screen and (min-width: 1200px) {
+    background-color: rgba(29, 41, 63, 0.1);
+    height: 250px;
+  }
+}
+.slick-container {
+  width: 1100px;
+  height: 200px;
+  padding: 0 40px;
+  margin: auto;
+}
+.slick.prev:hover,
+.slick.prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.slick {
+  display: flex;
+}
+>>>>>>> Stashed changes
 // .slick-slider {
 //   @media screen and (min-width: 1200px) {
 //     background-color: rgba(29, 41, 63, 0.1);
@@ -24,10 +51,16 @@
 // }
 
 .slick-logo {
+<<<<<<< Updated upstream
   margin-right: 100px;
   // padding-left: 100px;
   // margin-top: 20px;
 
+=======
+  padding-left: 450px;
+  margin-top: 20px;
+}
+>>>>>>> Stashed changes
 .slick__text {
 
   text-align: center;
