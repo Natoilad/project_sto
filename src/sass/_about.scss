@@ -24,9 +24,10 @@
 
 .slick-logo {
   margin-right: 100px;
-  // padding-left: 100px;
-  // margin-top: 20px;
 }
+// padding-left: 100px;
+// margin-top: 20px;
+
 // .slick-slider {
 //   @media screen and (min-width: 1200px) {
 //     background-color: rgba(29, 41, 63, 0.1);
@@ -68,7 +69,7 @@
     background-color: var(--dark-them-text-color);
     width: 1200px;
     height: 800px;
-    padding-left: 120px;
+    padding-left: 0px;
   }
 }
 
@@ -200,8 +201,8 @@
 .project__title-3 {
   position: absolute;
   z-index: 3;
-  margin-left: 765px;
-  margin-top: 140px;
+  margin-left: 820px;
+  margin-top: 120px;
   margin-bottom: 8px;
   font-family: Manrope;
   color: var(--white-them-text-color);
@@ -215,8 +216,8 @@
   position: absolute;
   z-index: 3;
   width: 280px;
-  margin-left: 765px;
-  margin-top: 175px;
+  margin-left: 820px;
+  margin-top: 155px;
   font-family: Manrope;
   color: var(--white-them-text-color);
   font-weight: 500;
@@ -236,9 +237,9 @@
 }
 
 .picture-img3 {
-  margin-top: -765px;
+  margin-top: -800px;
   margin-bottom: 200px;
-  margin-left: 925px;
+  margin-left: 980px;
   position: absolute;
   z-index: 3;
 }
@@ -249,7 +250,7 @@
     z-index: 2;
     margin-top: 0px;
     margin-bottom: 375px;
-    margin-left: 735px;
+    margin-left: 860px;
     // fill: #e6f0f4;
     // opacity: 40%;
   }
@@ -268,7 +269,6 @@
   padding-bottom: 100px;
 
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
     height: 300px;
     margin-bottom: 72px;
     padding-top: 100px;
