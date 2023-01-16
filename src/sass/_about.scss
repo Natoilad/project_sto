@@ -153,7 +153,8 @@
     color: var(--accent-color);
   }
   @media screen and (min-width: 1200px) {
-    top: 130px;
+    top: 280px;
+    margin-left: 0;
   }
 }
 
@@ -190,6 +191,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   @media screen and (min-width: 1200px) {
+    margin-top: 20px;
     margin-left: 100px;
     text-align: left;
   }
@@ -246,7 +248,7 @@
   @media screen and (min-width: 1200px) {
     position: relative;
     z-index: 1;
-    margin-top: -400px;
+    margin-top: -500px;
   }
 }
 
@@ -264,7 +266,7 @@
     position: absolute;
     z-index: 3;
     margin-left: 765px;
-    margin-top: 140px;
+    margin-top: 200px;
     text-align: left;
   }
 }
@@ -282,7 +284,7 @@
     z-index: 3;
     width: 280px;
     margin-left: 765px;
-    margin-top: 175px;
+    margin-top: 230px;
     text-align: left;
   }
 }
@@ -309,9 +311,9 @@
   display: none;
   @media screen and (min-width: 1200px) {
     display: flex;
-    margin-top: -765px;
+    margin-top: -825px;
     margin-bottom: 200px;
-    margin-left: 925px;
+    margin-left: 935px;
     position: absolute;
     z-index: 3;
   }
@@ -323,9 +325,8 @@
     display: flex;
     position: relative;
     z-index: 2;
-    margin-top: 0px;
-    margin-bottom: 375px;
-    margin-left: 735px;
+    margin-bottom: 475px;
+    margin-left: 855px;
   }
 }
 
