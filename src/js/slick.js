@@ -1,4 +1,5 @@
 $('.multiple-items').slick({
+  arrows: false,
   dots: false,
   infinite: true,
   slidesToShow: 5,
