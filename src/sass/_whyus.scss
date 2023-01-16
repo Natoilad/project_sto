@@ -1,8 +1,6 @@
 .whyus {
   background-color: rgb(230, 240, 244);
   text-align: center;
-  //   background-color: teal;
-  // padding-top: 80px;
   padding-bottom: 80px;
   &__title {
     margin-bottom: 25px;
@@ -38,7 +36,6 @@
   }
 
   &__btn-more {
-    // display: flex;
     gap: 8px;
     align-items: center;
     color: var(--dark-them-text-color);
@@ -46,7 +43,6 @@
     padding: 8 16;
     background-color: #f86808;
     text-align: center;
-    // button phone
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
