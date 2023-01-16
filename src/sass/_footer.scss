@@ -53,6 +53,9 @@
     gap: 10px;
   }
   &__social {
+    @media screen and(min-width:1200px) {
+      margin-bottom: 0;
+    }
     margin-bottom: 10px;
     display: flex;
     text-align: center;

@@ -1,5 +1,4 @@
 .portfolio {
-  // background-color: teal;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -88,12 +87,5 @@
         fill: #f86808;
       }
     }
-  }
-}
-
-.portfolio__part-test {
-  display: none;
-  @media screen and(min-width:1200px) {
-    display: block;
   }
 }
