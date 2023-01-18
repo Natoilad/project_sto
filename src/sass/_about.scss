@@ -128,20 +128,24 @@
     display: flex;
   }
 }
-
+.project {
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
 .project1 {
   margin-top: -70px;
 }
 
 .project-icon {
-   margin-left: 100px;
-   margin-top: 80px;
-   filter: drop-shadow(4px 4px #3da9f4);
+  //  margin-left: 100px;
+  margin-top: 80px;
+  filter: drop-shadow(4px 4px #3da9f4);
   border-radius: 50%;
   @media screen and (min-width: 1200px) {
-    display:none;
+    display: none;
   }
-
 }
 
 .project-title-1 {
