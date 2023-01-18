@@ -84,8 +84,7 @@
 
 .heading-btn {
   position: relative;
-  top: -1000px;
-  padding-bottom: 50px;
+  top: -800px;
   gap: 8px;
   align-items: center;
   color: var(--dark-them-text-color);
@@ -107,7 +106,7 @@
     color: var(--accent-color);
   }
   @media screen and (min-width: 1200px) {
-    top: 280px;
+    top: 270px;
     margin-left: 0;
   }
 }
@@ -125,8 +124,13 @@
   display: none;
   @media screen and (min-width: 1200px) {
     margin-top: 30px;
+    margin-bottom: 100px;
     display: flex;
   }
+}
+
+.project1 {
+  margin-top: -70px;
 }
 
 .project-icon {
@@ -174,7 +178,7 @@
 }
 
 .project-title-2 {
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-bottom: 8px;
   text-align: center;
   font-family: Manrope;
@@ -204,7 +208,7 @@
   }
 }
 
-.pr {
+.project1.pr {
   @media screen and (min-width: 1200px) {
     position: relative;
     z-index: 1;
@@ -213,7 +217,7 @@
 }
 
 .project-title-3 {
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-bottom: 8px;
   text-align: center;
   font-family: Manrope;
