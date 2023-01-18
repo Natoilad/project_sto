@@ -73,7 +73,12 @@
           <use href="./images/svg-sprite.svg#icon-phone"></use>
         </svg>
         +380636363633</a
-      >
+      > 
+      <button type="button" class="mobile-btn" data-menu-open>
+        <svg class="mobile-btn__icon">
+          <use href="./images/svg-sprite.svg#icon-burger-menu-icon" width="20" height="20"></use>
+        </svg>
+      </button>
     </div>
   </div>
 
@@ -85,4 +90,109 @@
     </p>
     <a class="hero-btn" href="#contact">Записатись на діагностику</a>
   </div>
+
+
+  <!--Мобільне меню-->
+   <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu__container">
+        <button type="button" class="mobile-menu__btn" data-menu-close>
+          <svg class="mobile-menu__icon">
+            <use href="./images/svg-sprite.svg#icon-burger-menu-icon"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav list">
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link current link" href="./index.html">Chip Tuning</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="./index.html">Портфоліо</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="#">Контакти</a>
+          </li>
+        </ul>
+        <ul class=" contacts-mobile list">
+          <li class="contacts-mobile__item">
+            <div class="contacts-mobile__link">
+              <a class="contacts-mobile__telefon link" href="tel:+380636363633">+38 063 63 63 633</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="mobile-networks list">
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Instagram</a><span class="border"></span>
+          </li>
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Telegram</a><span class="border"></span>
+          </li>
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Facebook</a><span class="border"></span>
+          </li>
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Viber</a><span class="border"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
 </section>
+
+  <!--Модальна форма-->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-close-btn" data-modal-close>
+        <svg class="modal-close__icon" width="11" height="11">
+          <use href="./images/svg-sprite.svg#icon-burger-menu-icon"></use>
+        </svg>
+      </button>
+
+      <p class="modal-form__title">Залиште свої дані, ми вам передзвонимо</p>
+      <form class="modal-form">
+        <label class="modal-form__field">
+          <span class="modal-form__desc">
+            Ім'я
+          </span>
+          <span class="modal-form__wrapper">
+            <input type="text" class="modal-form__input" pattern="[a-zA-Zа-яА-ЯіІїЇ]+" name="user-name" required />
+            <svg class="modal-form__icon" width="12" height="12">
+              <use href="./images/svg-sprite.svg#icon-burger-menu-icon"></use>
+            </svg>
+          </span>
+        </label>
+        <label class="modal-form__field">
+          <span class="modal-form__desc">
+            Телефон
+          </span>
+          <span class="modal-form__wrapper">
+            <input type="tel" class="modal-form__input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx" name="user-phone" required />
+            <svg class="modal-form__icon" width="13" height="13">
+              <use href="./images/svg-sprite.svg#icon-burger-menu-icon"></use>
+            </svg>
+          </span>
+        </label>
+        <label class="modal-form__field">
+          <span class="modal-form__desc">
+            Пошта
+          </span>
+          <span class="modal-form__wrapper">
+            <input type="email" class="modal-form__input" pattern="^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$"
+              name="user-email" required />
+            <svg class="modal-form__icon" width="15" height="12">
+              <use href="./images/svg-sprite.svg#icon-burger-menu-icon"></use>
+            </svg>
+          </span>
+        </label>
+        <span class="modal-form__desc">
+          Коментар
+        </span>
+        <textarea name="user-message" class="modal-form__message" placeholder="Введіть текст" required></textarea>
+        <label class="modal-form-check__field">
+          <input type="checkbox" class="modal-form__check visually-hidden" name="user-policy" required />
+          <svg class="modal-form__checkbox">
+            <use class="modal-form-сheckbox__icon" href="./images/svg-sprite.svg#icon-burger-menu-icon"></use>
+          </svg>
+        </label>
+        <button type="submit" class="modal-form__submit">Відправити</button>
+      </form>
+    </div>
+  </div>
