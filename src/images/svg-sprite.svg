@@ -57,5 +57,13 @@
 <symbol id="icon-go-up" viewBox="0 0 12 12">
 <path d="M12 8.042l-6.003-5.997-5.997 6.003 1.909 1.906 4.091-4.094 4.094 4.091z"></path>
 </symbol>
+<symbol id="icon-burger" viewBox="0 0 31 32">
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M3.902 8.144h23.415v3.122h-23.415v-3.122z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M3.902 14.388h23.415v3.122h-23.415v-3.122z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M3.902 20.632h23.415v3.122h-23.415v-3.122z"></path>
+</symbol>
+<symbol id="icon-fr" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M13.92 16.182l-9.12-9.12 2.263-2.263 9.12 9.12 9.12-9.12 2.263 2.263-9.12 9.12 8.982 8.982-2.263 2.263-8.982-8.982-8.982 8.982-2.263-2.263 8.982-8.982z"></path>
+</symbol>
 </defs>
 </svg>
