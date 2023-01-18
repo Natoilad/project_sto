@@ -1,27 +1,3 @@
-// .slick-slider {
-//   @media screen and (min-width: 1200px) {
-//     background-color: rgba(29, 41, 63, 0.1);
-//     height: 250px;
-//   }
-// }
-
-// .slick-container {
-//   width: 1100px;
-//   height: 200px;
-//   padding: 0 40px;
-//   margin: 0 auto;
-// }
-
-// .slick.prev:hover,
-// .slick.prev:focus,
-// .slick-next:hover,
-// .slick-next:focus {
-//   background-color: transparent;
-//   width: 25px;
-//   height: 25px;
-//   border-radius: 50%;
-// }
-
 .slick-logo {
   margin-top: 20px;
   @media screen and (min-width: 1200px) {
@@ -32,32 +8,6 @@
 .slick-arrow {
   display: none;
 }
-// padding-left: 100px;
-// margin-top: 20px;
-
-// .slick-slider {
-//   @media screen and (min-width: 1200px) {
-//     background-color: rgba(29, 41, 63, 0.1);
-//     height: 250px;
-//   }
-// }
-
-// .slick-container {
-//   width: 1100px;
-//   height: 200px;
-//   padding: 0 40px;
-//   margin: 0 auto;
-// }
-
-// .slick.prev:hover,
-// .slick.prev:focus,
-// .slick-next:hover,
-// .slick-next:focus {
-//   background-color: transparent;
-//   width: 25px;
-//   height: 25px;
-//   border-radius: 50%;
-// }
 
 .slick-text {
   text-align: center;
@@ -134,7 +84,7 @@
 
 .heading-btn {
   position: relative;
-  top: -380px;
+  top: -1000px;
   padding-bottom: 50px;
   gap: 8px;
   align-items: center;
@@ -163,15 +113,10 @@
 }
 
 .project-container {
+  margin-top: -50px;
   @media screen and (min-width: 1200px) {
     width: 1200px;
     padding-left: 0;
-  }
-}
-
-.project {
-  margin-top: -50px;
-  @media screen and (min-width: 1200px) {
     margin-top: -150px;
   }
 }
@@ -184,8 +129,19 @@
   }
 }
 
+.project-icon {
+   margin-left: 100px;
+   margin-top: 80px;
+   filter: drop-shadow(4px 4px #3da9f4);
+  border-radius: 50%;
+  @media screen and (min-width: 1200px) {
+    display:none;
+  }
+
+}
+
 .project-title-1 {
-  margin-top: 100px;
+  // margin-top: -50px;
   margin-bottom: 8px;
   text-align: center;
   font-family: Manrope;
