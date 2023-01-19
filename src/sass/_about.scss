@@ -41,7 +41,7 @@
   // height: 800px;
   @media screen and (min-width: 1200px) {
     width: 1200px;
-    height: 600px;
+    height: 650px;
   }
 }
 
@@ -154,13 +154,20 @@
   }
 }
 .project1 {
-  margin-top: -70px;
+  background: #e6f0f4;
+  margin-top: 30px;
+  padding: 20px;
+  @media screen and (min-width: 1200px) {
+    background: rgba(0, 0, 0, 0);
+    margin-top: 0px;
+    padding: 0px;
+  }
 }
 
 .project-icon {
   fill: #f86808;
   //  margin-left: 100px;
-  margin-top: 80px;
+  // margin-top: 80px;
   filter: drop-shadow(4px 4px #3da9f4);
   border-radius: 50%;
   @media screen and (min-width: 1200px) {
@@ -236,7 +243,7 @@
   @media screen and (min-width: 1200px) {
     position: relative;
     z-index: 1;
-    margin-top: -450px;
+    margin-top: -500px;
   }
 }
 
